@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lugares</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let place of places" [routerLink]="['/places', place.id]">
+      <ion-avatar slot="start">
+        <img [src]="place.imageURL" />
+      </ion-avatar>
+      {{place.tittle}}
+    </ion-item>
+  </ion-list>
+</ion-content>
