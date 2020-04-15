@@ -1,8 +1,8 @@
 {
   "name": "firstproject",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Fernando E. Zepeda Castellanos",
+  "homepage": "https://linkedin.com/in/fzepeda10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
